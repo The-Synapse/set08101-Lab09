@@ -13,7 +13,7 @@
         "isAlive": true,
         "age": 125,
         "height_cm": 167.6,
-        " address": {
+        "address": {
             "streetAddress": "21 2nd Street",
             "city": "Springfield",
             "state": "NY",
@@ -27,11 +27,19 @@
             "number": "646 555-4567"
         }
         ],
-        " children": [],
-        " spouse ": null
+        "children": [],
+        "spouse ": null
         }
     ]`
+
+        console.log(JSON.parse(JSON_Test)[0].firstName)
         console.log(JSON.parse(JSON_Test)[0].lastName)
+        console.log(JSON.parse(JSON_Test)[0].isAlive)
+        console.log(JSON.parse(JSON_Test)[0].age)
+        console.log(JSON.parse(JSON_Test)[0].height_cm)
+        console.log(JSON.parse(JSON_Test)[0].address)
+        console.log(JSON.parse(JSON_Test)[0].phoneNumbers)
+
     </script>
 </body>
 </html>
